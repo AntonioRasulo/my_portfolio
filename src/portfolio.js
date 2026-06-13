@@ -4,6 +4,12 @@
 
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
+import cIcon from "./assets/images/c.svg"
+import cppIcon from "./assets/images/cpp.svg"
+import linuxIcon from "./assets/images/linux.svg"
+import pythonIcon from "./assets/images/python.svg"
+import jsIcon from "./assets/images/javascript.svg"
+import csIcon from "./assets/images/cs.svg"
 
 // Splash Screen
 
@@ -20,10 +26,10 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Antonio Rasulo",
+  title: "Hi all, I'm Antonio",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "Software Engineer with strong experience in C++ and performance-critical software. Proven track record delivering production features on large-scale software platforms. Skilled in debugging, system architecture, automation, and cross-team technical leadership. Proven flexibility, capability, and passion for working with new technologies and programming languages, quickly adapting to different environments and contributing effectively across diverse software domains."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -33,13 +39,10 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
+  github: "https://github.com/AntonioRasulo",
+  itchio: "https://mischievouscats.itch.io/",
   linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  gmail: "antonio.rasuloa@libero.it",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,15 +52,15 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "SOFTWARE ENGINEER",
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    //emoji(
+    //  "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+    //),
+    //emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    //emoji(
+    //  "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+    //)
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -65,56 +68,28 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "C++",
+      icon: cppIcon // Use imported SVG
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "C",
+      icon: cIcon // Use imported SVG
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "C#",
+      icon: csIcon // Use imported SVG
+    },
+    {
+      skillName: "Linux",
+      icon: linuxIcon // Use imported SVG
+    },
+    {
+      skillName: "Python",
+      icon: pythonIcon // Use imported SVG
     },
     {
       skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      icon: jsIcon // Use imported SVG
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -371,19 +346,19 @@ const resumeSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "Please feel free to contact me!",
+  number: "+353851196129",
+  email_address: "antonio.rasuloa@libero.it"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,

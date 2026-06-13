@@ -82,6 +82,19 @@
   background-color: $textColor;
 }
 
+.itchio i {
+  background-color: #fa5c5c;
+  svg {
+    width: 1.1rem;
+    height: 1.1rem;
+    fill: $textColorDark;
+  }
+}
+
+.itchio i:hover {
+  background-color: $textColor;
+}
+
 /* Media Query */
 @media (max-width: 768px) {
   .social-media-div {
