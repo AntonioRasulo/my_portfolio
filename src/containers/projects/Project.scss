@@ -1,32 +1,96 @@
+@import "../../_globalColor";
+
+.projects-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.project-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 30px auto;
+  max-width: 1000px;
+  //background-color:  $lightBackground2;
+  //box-shadow:  $lightBoxShadowDark 0px 10px 30px -15px;
+}
+
 .project-title {
-  font-size: 52px;
-  font-weight: 400;
-  line-height: normal;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+ text-align: center;
 }
 
-.startup-project-text img {
-  max-width: 100%;
+.project-video {
+  width: 100%;
   height: auto;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
-.repo-cards-div-main {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  gap: 1rem 1rem;
+.project-description {
+  font-size: 1rem;
+  margin-bottom: 20px;
 }
 
-/* Media Query */
-@media (max-width: 1380px) {
-  .project-title {
-    font-size: 40px;
+.image-gallery {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+text-align: center;
+
+  .project-image {
+    width: 32%; // Adjust as needed for spacing
+    height: auto;
+    border-radius: 5px;
+    object-fit: cover; // Ensures images maintain aspect ratio
   }
 }
-@media (max-width: 768px) {
-  .project-title {
-    font-size: 30px;
-    text-align: center;
+
+.project-links {
+  display: flex;
+  justify-content: space-between;
+	
+
+  a {
+  background-color: $buttonColor;
+  border: solid 1px $buttonColor;
+  color: $textColorDark;
+  font-weight: 700;
+  width: max-content;
+  padding: 13px 22px;
+  margin-right: 50px;
+  text-transform: uppercase;
+  border-radius: 6px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin-top: 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out 0s;
+
+    &:hover {
+        background-color: $darkBoxShadow2;
+  	color: $buttonColor;
+  	transition: all 0.3s ease 0s;
+  	transform: translateY(-3px);
+    }
   }
-  .repo-cards-div-main {
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+}
+
+.project-media-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1px;
+  justify-content: center;
+  align-items: flex-start;
+
+  iframe {
+    width: calc(50% - 8px); // 2 per row, accounting for the gap
+    height: 250px; // pick a fixed height, or use aspect-ratio below
+    max-width: 100%;
   }
 }
