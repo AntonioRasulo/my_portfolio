@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/my_portfolio/static/css/main.e802165f.css",
+    "main.js": "/my_portfolio/static/js/main.b926bf16.js",
+    "static/css/769.b3cbb36b.chunk.css": "/my_portfolio/static/css/769.b3cbb36b.chunk.css",
+    "static/js/769.1414c34d.chunk.js": "/my_portfolio/static/js/769.1414c34d.chunk.js",
+    "static/media/Montserrat-Regular.ttf": "/my_portfolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/Stemma_unipi.svg.png": "/my_portfolio/static/media/Stemma_unipi.svg.0f1e8c1da87af344aa12.png",
+    "static/media/CV_Antonio_Rasulo.pdf": "/my_portfolio/static/media/CV_Antonio_Rasulo.f49f59a0cbda7cb302da.pdf",
+    "static/media/Agustina.woff": "/my_portfolio/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/homeicide1.png": "/my_portfolio/static/media/homeicide1.ef379c8716c9a70bd82b.png",
+    "static/media/manOnTable.svg": "/my_portfolio/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
+    "static/media/homeicide3.png": "/my_portfolio/static/media/homeicide3.679644795dd8a09ff5e1.png",
+    "static/media/homeicide2.png": "/my_portfolio/static/media/homeicide2.f6e1562d41cb829ea693.png",
+    "static/media/homeicide.png": "/my_portfolio/static/media/homeicide.c485dc5f72f9ee291617.png",
+    "static/media/contactMailDark.svg": "/my_portfolio/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
+    "static/media/developerActivity.svg": "/my_portfolio/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
+    "static/media/qualcomm.jpg": "/my_portfolio/static/media/qualcomm.45717d28f8ccd77fe2e1.jpg",
+    "static/media/unisi.jpg": "/my_portfolio/static/media/unisi.0d20afd8e90acce1094e.jpg",
+    "static/media/motorola.jpg": "/my_portfolio/static/media/motorola.aa0d4543915fd150fc12.jpg",
+    "static/media/psm.jpg": "/my_portfolio/static/media/psm.cff82bd1bbf6ef9cabcd.jpg",
+    "static/media/resiltech.png": "/my_portfolio/static/media/resiltech.6e4726d1bfe0b98ea8fb.png",
+    "static/media/skill.svg": "/my_portfolio/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
+    "static/media/linux.svg": "/my_portfolio/static/media/linux.7edd3cb48dc34b65f069a882f5a12e03.svg",
+    "static/media/cpp.svg": "/my_portfolio/static/media/cpp.6d6f4fbeae13a21d586502a7441de82e.svg",
+    "static/media/c.svg": "/my_portfolio/static/media/c.a4260740f5050216159890d0d2a9233e.svg",
+    "index.html": "/my_portfolio/index.html",
+    "static/media/javascript.svg": "/my_portfolio/static/media/javascript.f8f3e55ad5b03e254e5dccd8cf13e1fa.svg",
+    "static/media/cs.svg": "/my_portfolio/static/media/cs.3cd092b2cc8d9230a8a1c14a565946d2.svg",
+    "static/media/python.svg": "/my_portfolio/static/media/python.f111e53006aeb0ebcfa822296b8b8109.svg",
+    "main.e802165f.css.map": "/my_portfolio/static/css/main.e802165f.css.map",
+    "main.b926bf16.js.map": "/my_portfolio/static/js/main.b926bf16.js.map",
+    "769.b3cbb36b.chunk.css.map": "/my_portfolio/static/css/769.b3cbb36b.chunk.css.map",
+    "769.1414c34d.chunk.js.map": "/my_portfolio/static/js/769.1414c34d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e802165f.css",
+    "static/js/main.b926bf16.js"
+  ]
+}
