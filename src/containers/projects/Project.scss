@@ -83,14 +83,31 @@ text-align: center;
 
 .project-media-row {
   display: flex;
-  flex-wrap: wrap;
-  gap: 1px;
-  justify-content: center;
-  align-items: flex-start;
+  flex-direction: column;   // stack vertically
+  align-items: center;
+  gap: 16px;
+}
+
+.project-media-image {
+  max-width: 100%;      // never exceed the card width
+  height: auto;         // scale height proportionally — no distortion
+  object-fit: contain;  // if you ever cap height, this prevents cropping
+  border-radius: 5px;
+}
+
+.project-video-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 20px;
 
   iframe {
-    width: calc(50% - 8px); // 2 per row, accounting for the gap
-    height: 250px; // pick a fixed height, or use aspect-ratio below
-    max-width: 100%;
+    width: 100%;
+    max-width: 560px;
+    aspect-ratio: 16 / 9;   // keeps proper proportions at any width
+    height: auto;
+    border: 0;
+    border-radius: 5px;
   }
 }

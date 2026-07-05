@@ -10,6 +10,7 @@ import linuxIcon from "./assets/images/linux.svg"
 import pythonIcon from "./assets/images/python.svg"
 import jsIcon from "./assets/images/javascript.svg"
 import csIcon from "./assets/images/cs.svg"
+import monogameIcon from "./assets/images/monogame.svg"
 
 // Splash Screen
 
@@ -41,8 +42,9 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/AntonioRasulo",
   itchio: "https://mischievouscats.itch.io/",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
+  linkedin: "https://www.linkedin.com/in/antonio-rasulo-698513142/",
   gmail: "antonio.rasuloa@libero.it",
+  instagram: "https://www.instagram.com/mischievouscatsgames/",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -90,6 +92,10 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "JavaScript",
       icon: jsIcon // Use imported SVG
+    },
+    {
+      skillName: "MonoGame",
+      icon: monogameIcon
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -157,6 +163,10 @@ const techStack = {
     },
     {
       Stack: "Math",
+      progressPercentage: "60%"
+    },
+    {
+      Stack: "MonoGame",
       progressPercentage: "60%"
     },
     {
