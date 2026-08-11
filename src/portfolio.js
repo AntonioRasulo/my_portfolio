@@ -191,6 +191,22 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Founder & Game Developer",
+      company: "Mischievous Cats",
+      companylogo: require("./assets/images/MischievousCatsLogo.jpg"),
+      date: "February 2026 – Present",
+      //desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      descBullets: [
+        "Founded an independent game studio to design and develop video games in my free time, managing the project end-to-end from concept to release",
+        "Designed and programmed an arcade game inspired by Super Pang, using MonoGame (C#)",
+        "Co-created the pixel art for the main character and designed additional pixel art assets myself; sourced and integrated music and SFX from independent itch.io artists",
+        "Managed social media presence, including an Instagram page showcasing development progress, and promoted releases on Reddit and Discord communities (MonoGame, GameJam Galway",
+        "Applied Agile-inspired task planning, breaking down development work into sub-tasks tracked via GitHub Issues",
+        "Participated in a game jam in Galway (May 2026), collaborating with a programmer and two artists to build a game in Godot within a tight deadline",
+        "Currently in progress: A Snake-clone built in C++/OpenGL. An offline puzzle/shooter hybrid in Unreal Engine"
+      ]
+    },
+    {
       role: "Software Engineer",
       company: "Motorola Solutions",
       companylogo: require("./assets/images/motorola.jpg"),
