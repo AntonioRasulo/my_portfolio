@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/my_portfolio/static/css/main.eba21d66.css",
-    "main.js": "/my_portfolio/static/js/main.5ce6cf3a.js",
+    "main.js": "/my_portfolio/static/js/main.101c58fa.js",
     "static/css/769.b3cbb36b.chunk.css": "/my_portfolio/static/css/769.b3cbb36b.chunk.css",
-    "static/js/769.53c2e95f.chunk.js": "/my_portfolio/static/js/769.53c2e95f.chunk.js",
+    "static/js/769.a4cc8ae0.chunk.js": "/my_portfolio/static/js/769.a4cc8ae0.chunk.js",
     "static/media/Montserrat-Regular.ttf": "/my_portfolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/Stemma_unipi.svg.png": "/my_portfolio/static/media/Stemma_unipi.svg.0f1e8c1da87af344aa12.png",
+    "static/media/e.png": "/my_portfolio/static/media/e.6fe81aaf8da5b22317bd.png",
     "static/media/CV_Antonio_Rasulo.pdf": "/my_portfolio/static/media/CV_Antonio_Rasulo.ccd8e40602da5b715934.pdf",
     "static/media/Game3.PNG": "/my_portfolio/static/media/Game3.e7bc42782b05352ad80b.PNG",
     "static/media/Game2.PNG": "/my_portfolio/static/media/Game2.0b08835662e169be5746.PNG",
@@ -13,6 +14,7 @@
     "static/media/Agustina.woff": "/my_portfolio/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/Pause.PNG": "/my_portfolio/static/media/Pause.8d5fa9159674e993b3c4.PNG",
     "static/media/MischievousCatsLogo.jpg": "/my_portfolio/static/media/MischievousCatsLogo.df6d6ef455e9abd4d8bc.jpg",
+    "static/media/Snek_Cover.png": "/my_portfolio/static/media/Snek_Cover.3a05ee574928bcca1fc9.png",
     "static/media/homeicide1.png": "/my_portfolio/static/media/homeicide1.ef379c8716c9a70bd82b.png",
     "static/media/Shop.PNG": "/my_portfolio/static/media/Shop.164cc261e92116f81ce5.PNG",
     "static/media/manOnTable.svg": "/my_portfolio/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
@@ -28,6 +30,7 @@
     "static/media/psm.jpg": "/my_portfolio/static/media/psm.cff82bd1bbf6ef9cabcd.jpg",
     "static/media/resiltech.png": "/my_portfolio/static/media/resiltech.6e4726d1bfe0b98ea8fb.png",
     "static/media/monogame.svg": "/my_portfolio/static/media/monogame.25e28395df7d70f0ed1182ebbf590955.svg",
+    "static/media/opengl.svg": "/my_portfolio/static/media/opengl.0661a1980674b4bcbf0393df82628daa.svg",
     "static/media/skill.svg": "/my_portfolio/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
     "static/media/linux.svg": "/my_portfolio/static/media/linux.7edd3cb48dc34b65f069a882f5a12e03.svg",
     "static/media/cpp.svg": "/my_portfolio/static/media/cpp.6d6f4fbeae13a21d586502a7441de82e.svg",
@@ -37,12 +40,12 @@
     "static/media/cs.svg": "/my_portfolio/static/media/cs.3cd092b2cc8d9230a8a1c14a565946d2.svg",
     "static/media/python.svg": "/my_portfolio/static/media/python.f111e53006aeb0ebcfa822296b8b8109.svg",
     "main.eba21d66.css.map": "/my_portfolio/static/css/main.eba21d66.css.map",
-    "main.5ce6cf3a.js.map": "/my_portfolio/static/js/main.5ce6cf3a.js.map",
+    "main.101c58fa.js.map": "/my_portfolio/static/js/main.101c58fa.js.map",
     "769.b3cbb36b.chunk.css.map": "/my_portfolio/static/css/769.b3cbb36b.chunk.css.map",
-    "769.53c2e95f.chunk.js.map": "/my_portfolio/static/js/769.53c2e95f.chunk.js.map"
+    "769.a4cc8ae0.chunk.js.map": "/my_portfolio/static/js/769.a4cc8ae0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.eba21d66.css",
-    "static/js/main.5ce6cf3a.js"
+    "static/js/main.101c58fa.js"
   ]
 }
