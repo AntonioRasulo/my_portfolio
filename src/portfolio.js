@@ -11,6 +11,7 @@ import pythonIcon from "./assets/images/python.svg"
 import jsIcon from "./assets/images/javascript.svg"
 import csIcon from "./assets/images/cs.svg"
 import monogameIcon from "./assets/images/monogame.svg"
+import openGLIcon from "./assets/images/opengl.svg"
 
 // Splash Screen
 
@@ -96,6 +97,10 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "MonoGame",
       icon: monogameIcon
+    },
+    {
+      skillName: "OpenGL",
+      icon: openGLIcon
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -146,7 +151,7 @@ const techStack = {
       progressPercentage: "90%"
     },
     {
-      Stack: "Adaptability to new programming languages",
+      Stack: "Adaptability to new programming languages and techonologies",
       progressPercentage: "80%"
     },
     {
@@ -175,11 +180,15 @@ const techStack = {
     },
     {
       Stack: "Python",
-      progressPercentage: "40%"
+      progressPercentage: "60%"
     },
     {
-      Stack: "JavaScript",
-      progressPercentage: "30%"
+      Stack: "OpenGL",
+      progressPercentage: "60%"
+    },
+    {
+      Stack: "Javascript",
+      progressPercentage: "60%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -203,7 +212,8 @@ const workExperiences = {
         "Managed social media presence, including an Instagram page showcasing development progress, and promoted releases on Reddit and Discord communities (MonoGame, GameJam Galway",
         "Applied Agile-inspired task planning, breaking down development work into sub-tasks tracked via GitHub Issues",
         "Participated in a game jam in Galway (May 2026), collaborating with a programmer and two artists to build a game in Godot within a tight deadline",
-        "Currently in progress: A Snake-clone built in C++/OpenGL. An offline puzzle/shooter hybrid in Unreal Engine"
+        "Developed and designed a Snake-clone video game built using C++ and OpenGL",
+        "Currently in progress: An offline puzzle/shooter hybrid in Unreal Engine"
       ]
     },
     {

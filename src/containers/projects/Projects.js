@@ -13,6 +13,9 @@ import fallsGame3 from "../../assets/images/Falls/Game3.PNG";
 import fallPause from "../../assets/images/Falls/Pause.PNG";
 import fallShop from "../../assets/images/Falls/Shop.PNG";
 
+import snekTitle from "../../assets/images/Snek/Snek_Cover.png";
+import snek1 from "../../assets/images/Snek/e.png";
+
 const projectsData = [
   {
     title: "Falls Off The Balls",
@@ -37,6 +40,15 @@ const projectsData = [
     videos: [],
     githubLink: "https://github.com/JCoMcL/ggj-smart-casual", 
     itchioLink: "https://jcomcl.itch.io/homeicide",
+  },
+  {
+    title: "Snëk!",
+    description: "\"Snëk!\" is a Snake-clone video game built using C++ and OpenGL",
+    image1: snekTitle,
+    image2: snek1,
+    videos: [],
+    githubLink: "https://github.com/AntonioRasulo/Snake_OpenGL",
+    itchioLink: "https://mischievouscats.itch.io/snk"
   }
   // Add more projects as needed
 ];
