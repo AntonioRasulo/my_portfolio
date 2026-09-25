@@ -12,6 +12,7 @@ import jsIcon from "./assets/images/javascript.svg"
 import csIcon from "./assets/images/cs.svg"
 import monogameIcon from "./assets/images/monogame.svg"
 import openGLIcon from "./assets/images/opengl.svg"
+import unrealIcon from "./assets/images/unreal-engine.svg"
 
 // Splash Screen
 
@@ -101,6 +102,10 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "OpenGL",
       icon: openGLIcon
+    },
+    {
+      skillName: "Unreal Engine",
+      icon: unrealIcon
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -187,6 +192,10 @@ const techStack = {
       progressPercentage: "60%"
     },
     {
+      Stack: "Unreal Engine",
+      progressPercentage: "60%"
+    },
+    {
       Stack: "Javascript",
       progressPercentage: "60%"
     }
@@ -211,9 +220,9 @@ const workExperiences = {
         "Co-created the pixel art for the main character and designed additional pixel art assets myself; sourced and integrated music and SFX from independent itch.io artists",
         "Managed social media presence, including an Instagram page showcasing development progress, and promoted releases on Reddit and Discord communities (MonoGame, GameJam Galway",
         "Applied Agile-inspired task planning, breaking down development work into sub-tasks tracked via GitHub Issues",
-        "Participated in a game jam in Galway (May 2026), collaborating with a programmer and two artists to build a game in Godot within a tight deadline",
+        "Participated in two game jams in Galway, collaborating with programmers and artists",
         "Developed and designed a Snake-clone video game built using C++ and OpenGL",
-        "Currently in progress: An offline puzzle/shooter hybrid in Unreal Engine"
+        "Currently in progress: An offline puzzle/shooter hybrid in Unreal Engine and an arcade-style videogame"
       ]
     },
     {
