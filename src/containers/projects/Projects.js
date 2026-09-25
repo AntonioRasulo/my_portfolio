@@ -16,19 +16,31 @@ import fallShop from "../../assets/images/Falls/Shop.PNG";
 import snekTitle from "../../assets/images/Snek/Snek_Cover.png";
 import snek1 from "../../assets/images/Snek/e.png";
 
+import ibexTitle from "../../assets/images/Ibex/FrontSmall.png"
+import ibexGameplay from "../../assets/images/Ibex/Gameplay2.png"
+
 const projectsData = [
   {
     title: "Falls Off The Balls",
     description: "Falls Off The Balls is a roguelike arcade game where all you have to do is to shot to balls and flying demon bats. Developed with MonoGame using C#",
     image1: fallsTitle,
-    image2: fallsGame1,
-    image3: fallsGame2,
-    image4: fallsGame3,
-    image5: fallPause,
-    image6: fallShop,
+    //image2: fallsGame1,
+    image2: fallsGame2,
+    image3: fallsGame3,
+    //image4: fallPause,
+    //image5: fallShop,
     videos: [],
     githubLink: "https://github.com/AntonioRasulo/Falls_Off_The_Balls", 
     itchioLink: "https://mischievouscats.itch.io/falls-off-the-balls",
+  },
+  {
+    title: "Ibex Simulator",
+    description: "Ibex Simulator is a platformer video game in which the player is to guide a goat up an endless series of platforms without falling. The video game was made during the September 2026 Galway Gam Jam.",
+    image1: ibexTitle,
+    image2: ibexGameplay,
+    videos: [],
+    githubLink: "https://github.com/AntonioRasulo/IbexSimulator",
+    itchioLink: "https://mischievouscats.itch.io/ibex-simulator"
   },
   {
     title: "Homeicide",
@@ -36,7 +48,6 @@ const projectsData = [
     image1: homeicide,
     image2: homeicide1,
     image3: homeicide2,
-    image4: homeicide3,
     videos: [],
     githubLink: "https://github.com/JCoMcL/ggj-smart-casual", 
     itchioLink: "https://jcomcl.itch.io/homeicide",
